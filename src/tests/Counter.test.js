@@ -3,8 +3,7 @@ import { fireEvent, render, screen } from '@testing-library/react';
 // import the Counter component here
 import Counter from '../components/Counter';
 
-beforeEach(() => {
-  // Render the Counter component here  
+beforeEach(() => { 
   render(<Counter />);
 })
 
